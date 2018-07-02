@@ -1,2 +1,8 @@
-// require('babel-register');
-// require('./src/server.js');
+import React from 'react';
+import { render } from 'react-dom';
+import App from './src/App';
+
+render(
+    (<App />),
+    document.querySelector('#app')
+);
